@@ -1,14 +1,19 @@
 //  Navbar ----------------------------
 
 .t-navbar{
-      position: fixed;
-  top: 0;
-  width: 100%;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
     line-height: 3em;
     font-family: 'Tajawal';
     font-weight: 600;
     font-size: 18px;
     background-color: white;
+    .navbar-toggler {
+       color: $secoundary-color !important;
+       border: $secoundary-color !important;
+   }
     .nav-item{
         margin: 10px;
         border-radius: 20px;

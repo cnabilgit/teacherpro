@@ -1,5 +1,5 @@
 .t-hero{
-    margin-top: 100px;
+   
 .hero-img {
     width: 130%;
     direction: rtl;
@@ -8,5 +8,19 @@
 .t-hero-left {
     margin: auto;
     padding-bottom: 160px;
+}
+.scroll-down {
+    max-width: 43px;
+    margin: 0 auto;
+    margin-right: 48%;
+    margin-top: -200px;
+    outline: none;
+    &:hover{
+        transform: translateY(6px);
+        -webkit-transform: translateY(6px);
+        -moz-transform: translateY(6px);
+        -ms-transform: translateY(6px);
+        -o-transform: translateY(6px);
+}
 }
 }

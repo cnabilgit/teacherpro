@@ -1,0 +1,11 @@
+<svg id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="113.086" viewBox="0 0 55 113.086">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#22cae6"/>
+      <stop offset="1" stop-color="#5363d2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_87" data-name="Rectangle 87" width="55" height="93" rx="27.5" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_15" data-name="Ellipse 15" cx="8" cy="8" r="8" transform="translate(20 21)" fill="#fff"/>
+  <path id="Path_160" data-name="Path 160" d="M1049,1022.9l7.854,10.259,7.483-10.259" transform="translate(-1029.5 -922.076)" fill="none" stroke="#5466cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>

@@ -1,0 +1,43 @@
+.feature1{
+       background: url("../img/feature1-bg.svg") no-repeat left top;
+       background-size: cover;
+   .feature1-feature-list {
+      margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+   .feature1-img{
+      width: 100%;
+      height: auto;
+   }
+   .feature-item {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    .feature-item-img{
+    min-width: 120px;
+    padding: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+    max-width: 50px;
+    width: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    height: 50px;
+    }
+    }
+   }
+   .feature-item-header {
+    font-size: 30px;
+    font-weight: bold;
+   }
+}

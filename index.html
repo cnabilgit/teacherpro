@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -13,7 +12,6 @@
       crossorigin="anonymous"
     />
     <link href="css/index.css" rel="stylesheet" />
-
     <title>Teacher pro app</title>
   </head>
   <body>
@@ -46,7 +44,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
+              <a class="nav-link" aria-current="page" href="#down"
                 >انواع الحسابات</a
               >
             </li>
@@ -60,7 +58,7 @@
             </li>
           </ul>
           <a class="nav-link" aria-current="page" href="#">
-            <button class="btn btn-lg t-btn rounded" type="submit">
+            <button class="btn btn-lg t-btn t-btn-blue-g" type="submit">
               حمل التطبيق
             </button>
           </a>
@@ -68,9 +66,9 @@
       </div>
     </nav>
     <!-- End Header ///////////// -->
-
+    <!-- Start hero section //////////// -->
     <div class="t-wrapper">
-      <section class="t-hero">
+      <section class="section t-hero">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -82,8 +80,8 @@
               />
             </div>
             <div class="col-md-6 t-hero-left">
-              <h1 class="t-h1-secoundary">تطبيق تيتشر برو</h1>
-              <h3 class="t-h2-secoundary">
+              <h1 class="t-h1-secoundary mb-3">تطبيق تيتشر برو</h1>
+              <h3 class="t-h2-secoundary mb-2">
                 المساعد الأول للمعلم . الأن بين يديك
               </h3>
               <p class="t-p">
@@ -92,28 +90,287 @@
                 الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
                 إيبسوم لأنها تعطي توزيعاَ طبيعياَ
               </p>
-              <button class="btn t-btn btn-lg m-lg-4">How are you</button>
-              <button class="btn t-btn btn-lg">Hello</button>
-              <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+              <button class="btn t-btn btn-lg mx-3 t-btn-red-g">
+                <img
+                  src="./img/yt-icon.svg"
+                  alt=""
+                  srcset=""
+                  class="btn-icon"
+                />
+                شاهد الفيديو
+              </button>
+              <button class="btn t-btn btn-lg t-btn-blue-g">
+                <img src="./img//arrow.svg" alt="" srcset="" class="btn-icon" />
+                اعرف المزيد
+              </button>
+            </div>
+          </div>
+        </div>
+        <a href="#down" id="down">
+          <img
+            src="./img/scroll-down.svg"
+            class="scroll-down"
+            alt=""
+            srcset=""
+          />
+        </a>
+      </section>
+      <!-- End hero section //////////// -->
+
+      <!-- Start account section //////////// -->
+      <section class="section t-accounts" id="accounts">
+        <div class="container">
+          <!-- Section Header -->
+
+          <div class="section-header">
+            <h3 class="">أنواع الحسابات</h3>
+            <p class="t-p">
+              تيتشر برو يمكن الطالب ايضا من معرفه حصصه اليومية وواجباته ، ايضا
+              ولي الامر والمشرفين
+            </p>
+            <!-- End Section Header -->
+            <img
+              src="./img//account-steps.svg"
+              id="account-steps"
+              alt=""
+              srcset=""
+            />
+
+            <!-- Start Section body  -->
+
+            <div class="section-body">
+              <div class="row p-4">
+                <!-- teacher account  -->
+
+                <div class="col-md-3 mb-3">
+                  <div class="account t-card teacher-hover">
+                    <div class="">
+                      <img src="./img/teacher.svg" alt="" srcset="" />
+                    </div>
+                    <h4 class="t-card-title teacher-color">المعلم</h4>
+                    <p class="">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                      ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                      توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام
+                      طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    </p>
+                    <div class="t-card-footer teacher-bg"></div>
+                  </div>
+                </div>
+
+                <!-- End of teacher account  -->
+
+                <!-- start student account -->
+
+                <div class="col-md-3 mb-3">
+                  <div class="account t-card student-hover">
+                    <div class="">
+                      <img src="./img/student.svg" alt="" srcset="" />
+                    </div>
+                    <h4 class="t-card-title student-color">الطالب</h4>
+                    <p class="">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                      ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                      توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام
+                      طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    </p>
+                    <div class="t-card-footer student-bg"></div>
+                  </div>
+                </div>
+
+                <!-- end student account -->
+
+                <div class="col-md-3 mb-3">
+                  <div class="account t-card parent-hover">
+                    <div class="">
+                      <img src="./img/parent.svg" alt="" srcset="" />
+                    </div>
+                    <h4 class="t-card-title parent-color">ولي الأمر</h4>
+                    <p class="">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                      ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                      توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام
+                      طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    </p>
+                    <div class="t-card-footer parent-bg"></div>
+                  </div>
+                </div>
+
+                <!-- start parent account -->
+
+                <!-- start suppervisor account -->
+
+                <div class="col-md-3 mb-3">
+                  <div class="account t-card suppervisor-hover">
+                    <div class="">
+                      <img src="./img/suppervisor.svg" alt="" srcset="" />
+                    </div>
+                    <h4 class="t-card-title suppervisor-color">المفتش</h4>
+                    <p class="">
+                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة
+                      ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل
+                      توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام
+                      طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ
+                    </p>
+                    <div class="t-card-footer suppervisor-bg"></div>
+                  </div>
+                </div>
+
+                <!-- end suppervisor account -->
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Start of feature1 section  -->
+      <section class="section feature1">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h3 class="">مميزات التطبيق</h3>
+            <p class="t-p">
+              تيتشر برو يمكن الطالب ايضا من معرفه حصصه اليومية وواجباته ، ايضا
+              ولي الامر والمشرفين
+            </p>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <img src="./img/features1@2x.png" alt="" class="feature1-img" />
+            </div>
+            <div class="col-md-6">
+              <div class="feature1-feature-list">
+                <div class="feature-item">
+                  <div class="teacher-bg feature-item-img">
+                    <img src="./img/files.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header teacher-color">
+                      الواجبات والوسائظ
+                    </div>
+                    <div class="feature-item-text">
+                      اضافة وسائط ومواد تعليمية اصبح أسهل بتطبيق تيتشر برو
+                      وارسالها للطلاب بشكل تلقائي
+                    </div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="parent-bg feature-item-img">
+                    <img src="./img/teaching.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header parent-color">
+                      المشرف والقائد
+                    </div>
+                    <div class="feature-item-text">
+                      يمكن لأي مشرف مدرسي التسجيل ومتابعة المعلمين وانجازاتهم
+                      داخل التطبيق
+                    </div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="suppervisor-bg feature-item-img">
+                    <img src="./img/awards.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header suppervisor-color">
+                      سجل للانجازات للطالب والمعلم
+                    </div>
+                    <div class="feature-item-text">
+                      يمكن للمعلم متابعة انجازاته وسلوك طلابه ودرجاتهم وكذلك
+                      الطالب واطلاع ولي آمره علي انجازاته بسهولة
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of feature1 section  -->
+
+      <!-- Start of feature2 section  ////////////////// -->
+      <section class="section feature2">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header">
+            <h3 class="">مميزات التطبيق</h3>
+            <p class="text-white">
+              تيتشر برو يمكن الطالب ايضا من معرفه حصصه اليومية وواجباته ، ايضا
+              ولي الامر والمشرفين
+            </p>
+          </div>
+          <!-- section content  -->
+          <div class="row mt-4">
+            <div class="col-md-6">
+              <div class="feature2-feature-list">
+                <div class="feature-item">
+                  <div class="feature-item-img">
+                    <img src="./img/user.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header">
+                      تسجيل سريع لكافة العضويات
+                    </div>
+                    <div class="feature-item-text">
+                      قم بتسجيل حسابك كمعلم او ولي آمر بسهولة . للاستفادة من
+                      خصائص التطبيق حسب عضويتك
+                    </div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-item-img">
+                    <img src="./img/money.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header">بدون إشتراكات</div>
+                    <div class="feature-item-text">
+                      تطبيق تيتشر برو يتيح لك استخدام مجاني لكافه المميزات
+                      والخصائص
+                    </div>
+                  </div>
+                </div>
+                <div class="feature-item">
+                  <div class="feature-item-img">
+                    <img src="./img/chat.svg" alt="" srcset="" />
+                  </div>
+                  <div class="feature-content">
+                    <div class="feature-item-header">دردشة وتفاعل</div>
+                    <div class="feature-item-text">
+                      يضمن تيتشر برو تواصلك كمعلم مع طلابك وتفاعل الطلاب بشكل
+                      مستمر من خلال غرف الدردشه لكل فصل
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/feature2@2x.png" alt="" class="feature2-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of feature2 section  -->
+
+      <!-- start call to action  -->
+      <section class="section cta">
+        <div class="container"></div>
+      </section>
     </div>
 
+    <footer>
+      hello
+      <style>
+        footer {
+          min-height: 200px;
+          background-color: bisque;
+          margin-top: 100px;
+        }
+      </style>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
