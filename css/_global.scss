@@ -98,7 +98,7 @@ body{
                 
             }
         .t-card-footer{
-width: 50%;
+    width: 50%;
     min-width: 50%;
     min-height: 20px;
     position: absolute;
@@ -108,3 +108,23 @@ width: 50%;
         }
     }
 }
+circle {
+   animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both ;
+}
+
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+    100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+

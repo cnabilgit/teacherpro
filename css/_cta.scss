@@ -1,0 +1,37 @@
+.cta{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/cta-bg.svg) no-repeat center center;
+    background-size: contain;
+    a{
+       text-decoration: none;
+    }
+    h2{
+    color: #5063d0;
+    font-size: 40px;
+    font-weight: bold;
+    }
+    .buttons-container {
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+    .download {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 15px #4487d85e;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+    .download-icon {
+    max-width: 50px;
+    margin-left: 20px;
+}
+}

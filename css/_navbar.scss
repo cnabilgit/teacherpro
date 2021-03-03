@@ -2,7 +2,7 @@
 
 .t-navbar{
     z-index: 9999;
-    position: fixed;
+    position: fixed!important;
     top: 0;
     width: 100%;
     line-height: 3em;
@@ -41,5 +41,6 @@
     .nav-link li a{
       margin: 1em;
     }
+
 
 }

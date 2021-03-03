@@ -5,16 +5,194 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css"
     />
     <link href="css/index.css" rel="stylesheet" />
+
     <title>Teacher pro app</title>
   </head>
   <body>
+    <!-- pre loading  -->
+    <div id="loading">
+      <div class="spinner">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 88 71"
+          style="enable-background: new 0 0 88 71"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .st0 {
+              fill: url(#SVGID_1_);
+            }
+            .st1 {
+              fill: url(#SVGID_2_);
+            }
+            .st2 {
+              opacity: 0.55;
+              fill: url(#SVGID_3_);
+              enable-background: new;
+            }
+            .st3 {
+              opacity: 0.55;
+              fill: url(#SVGID_4_);
+              enable-background: new;
+            }
+            .st4 {
+              fill: #01cae6;
+            }
+            .st5 {
+              fill: #5363d2;
+            }
+            .st6 {
+              fill: #455b89;
+            }
+          </style>
+          <radialGradient
+            id="SVGID_1_"
+            cx="-351.0476"
+            cy="369.0851"
+            r="1"
+            gradientTransform="matrix(6.429396e-16 10.5 10.5 -6.429396e-16 -3856.8938 3736.5)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" style="stop-color: #12b3e1" />
+            <stop offset="1" style="stop-color: #3588d9" />
+          </radialGradient>
+          <circle class="st0" cx="18.5" cy="50.5" r="10.5" />
+          <linearGradient
+            id="SVGID_2_"
+            gradientUnits="userSpaceOnUse"
+            x1="0"
+            y1="20.8256"
+            x2="87.1"
+            y2="20.8256"
+            gradientTransform="matrix(1 0 0 -1 0 71.2756)"
+          >
+            <stop offset="0" style="stop-color: #5363d2" />
+            <stop offset="0.111" style="stop-color: #4b6dd3" />
+            <stop offset="0.301" style="stop-color: #3588d9" />
+            <stop offset="0.545" style="stop-color: #12b3e1" />
+            <stop offset="0.656" style="stop-color: #01cae6" />
+          </linearGradient>
+          <path
+            class="st1"
+            d="M66.5,30c-9.1,0-17.5,6.8-23,12.5C38,36.8,29.6,30,20.5,30C9.3,30,0.1,39.1,0,50.3v0.3
+	c0.1,11.2,9.3,20.3,20.5,20.3c9.1,0,17.5-6.8,23-12.6c5.5,5.8,13.9,12.6,23,12.6c11.2,0,20.4-9,20.6-20.3v-0.3
+	C86.9,39.1,77.8,30,66.5,30z M17,64.3c-7.6,0-13.8-6.1-13.9-13.7v-0.2C3.2,42.7,9.4,36.6,17,36.6c10.7,0,20,13.8,20,13.8
+	S27.7,64.3,17,64.3z M83.9,50.5c-0.1,7.6-6.3,13.7-13.9,13.7c-10.7,0-20-13.9-20-13.9s9.3-13.8,20-13.8c7.6,0,13.8,6.1,13.9,13.7
+	V50.5z"
+          />
+          <linearGradient
+            id="SVGID_3_"
+            gradientUnits="userSpaceOnUse"
+            x1="54.609"
+            y1="10.9719"
+            x2="45.8066"
+            y2="16.515"
+            gradientTransform="matrix(1 0 0 -1 0 71.2756)"
+          >
+            <stop offset="0" style="stop-color: #9f40c4; stop-opacity: 0" />
+            <stop
+              offset="0.548"
+              style="stop-color: #6e4ea4; stop-opacity: 0.537"
+            />
+            <stop offset="1" style="stop-color: #455b89" />
+          </linearGradient>
+          <path
+            class="st2"
+            d="M43.5,58.3c0,0,3.3-3.8,6.5-7.9c1.6,2.3,3.5,4.5,5.6,6.5c2.7,2.4,3.2,2.8,3.2,2.8L54,66.9
+	C50.1,64.6,46.6,61.7,43.5,58.3z"
+          />
+          <linearGradient
+            id="SVGID_4_"
+            gradientUnits="userSpaceOnUse"
+            x1="32.7377"
+            y1="33.4914"
+            x2="39.5741"
+            y2="24.6703"
+            gradientTransform="matrix(1 0 0 -1 0 71.2756)"
+          >
+            <stop offset="0" style="stop-color: #9f40c4; stop-opacity: 0" />
+            <stop
+              offset="0.548"
+              style="stop-color: #6e4ea4; stop-opacity: 0.537"
+            />
+            <stop offset="1" style="stop-color: #455b89" />
+          </linearGradient>
+          <path
+            class="st3"
+            d="M43.5,42.5c-2.5,3-4.8,5.8-6.5,7.9c-1.6-2.3-3.5-4.5-5.6-6.5c-2.7-2.4-3.2-2.8-3.2-2.8l4.8-7.2
+	C36.9,36.3,40.4,39.2,43.5,42.5z"
+          />
+          <path
+            class="st4"
+            d="M65.4,27.9c6.5,0,11.7-5.2,11.7-11.7c0-6.5-5.2-11.7-11.7-11.7S53.7,9.7,53.7,16.2
+	C53.7,22.7,58.9,27.9,65.4,27.9z"
+          />
+          <path
+            class="st5"
+            d="M20.1,27.9c4.9,0,8.9-4,8.9-8.9c0-4.9-4-8.9-8.9-8.9s-8.9,4-8.9,8.9C11.2,23.9,15.2,27.9,20.1,27.9z"
+          />
+          <path
+            class="st6"
+            d="M34.3,9.7l-5.1,2.6c-0.3,0.1-0.6,0.1-0.8-0.2c-4.1-4.6-11.2-5-15.9-0.8c-0.3,0.3-0.6,0.5-0.8,0.8
+	c-0.2,0.2-0.6,0.3-0.8,0.2L5.7,9.7C5.3,9.5,5.2,9.1,5.4,8.8c0.1-0.1,0.1-0.2,0.3-0.3l14-8.4c0.2-0.1,0.5-0.1,0.7,0l14,8.4
+	c0.3,0.2,0.4,0.6,0.2,1C34.5,9.6,34.4,9.6,34.3,9.7z"
+          />
+          <path
+            class="st6"
+            d="M6,17.2c-0.4,0-0.7-0.3-0.7-0.6V9.2c0-0.4,0.3-0.7,0.7-0.7c0.3,0,0.6,0.3,0.6,0.7v7.4C6.6,16.9,6.3,17.2,6,17.2
+	z"
+          />
+          <path
+            class="st5"
+            d="M5.9,17.7l0.6,1.1l1.1,0.6L6.5,20l-0.6,1.1L5.3,20l-1.1-0.6l1.1-0.6L5.9,17.7z"
+          />
+        </svg>
+      </div>
+      <style>
+        .spinner {
+          position: absolute;
+          top: 40%;
+          left: 50%;
+          width: 50px;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transform: scale(3.5);
+          background: #e3e3e363;
+          padding: 10px;
+          border-radius: 12px;
+        }
+        #loading {
+          background: white;
+          width: 100vw;
+          height: 100vh;
+          z-index: 99999;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      </style>
+    </div>
     <!-- Start Header /////////////////////////////////////////////////// -->
     <nav class="t-navbar navbar navbar-expand-lg navbar-light shadow-lg">
       <div class="container">
@@ -71,7 +249,7 @@
       <section class="section t-hero">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 fade-left">
               <img
                 src="./img/hero-img@2x.png"
                 class="hero-img"
@@ -79,7 +257,7 @@
                 srcset=""
               />
             </div>
-            <div class="col-md-6 t-hero-left">
+            <div class="col-md-6 t-hero-left fade-up">
               <h1 class="t-h1-secoundary mb-3">تطبيق تيتشر برو</h1>
               <h3 class="t-h2-secoundary mb-2">
                 المساعد الأول للمعلم . الأن بين يديك
@@ -90,16 +268,17 @@
                 الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
                 إيبسوم لأنها تعطي توزيعاَ طبيعياَ
               </p>
-              <button class="btn t-btn btn-lg mx-3 t-btn-red-g">
+              <button class="btn t-btn btn-lg mx-3 t-btn-red-g fade-right">
                 <img
                   src="./img/yt-icon.svg"
                   alt=""
                   srcset=""
                   class="btn-icon"
                 />
+
                 شاهد الفيديو
               </button>
-              <button class="btn t-btn btn-lg t-btn-blue-g">
+              <button class="btn t-btn btn-lg t-btn-blue-g fade-right">
                 <img src="./img//arrow.svg" alt="" srcset="" class="btn-icon" />
                 اعرف المزيد
               </button>
@@ -143,7 +322,7 @@
                 <!-- teacher account  -->
 
                 <div class="col-md-3 mb-3">
-                  <div class="account t-card teacher-hover">
+                  <div class="account t-card teacher-hover fade-up">
                     <div class="">
                       <img src="./img/teacher.svg" alt="" srcset="" />
                     </div>
@@ -352,8 +531,149 @@
       <!-- end of feature2 section  -->
 
       <!-- start call to action  -->
-      <section class="section cta">
-        <div class="container"></div>
+      <section class="section container cta">
+        <div class="container">
+          <h2 class="section-header">حمل تيتشر برو الآن وآكتشف المزيد !</h2>
+          <p class="text-center">
+            لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل الخاص بك
+            اما على الاندرويد أو الأيفون
+          </p>
+          <div class="row buttons-container">
+            <div class="col-md-6">
+              <a class="download t-btn-blue-g">
+                <img
+                  src="./img/apple.svg"
+                  alt=""
+                  srcset=""
+                  class="download-icon"
+                />
+                <div class="download-text">
+                  <h6>Get in now</h6>
+                  <span>download now</span>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a class="download t-btn-blue-g">
+                <img
+                  src="./img/android.svg"
+                  alt=""
+                  srcset=""
+                  class="download-icon"
+                />
+                <div class="download-text">
+                  <h6>Get in now</h6>
+                  <span>download now</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <h3 class="">مميزات التطبيق</h3>
+          <p class="t-p">
+            تيتشر برو يمكن الطالب ايضا من معرفه حصصه اليومية وواجباته ، ايضا ولي
+            الامر والمشرفين
+          </p>
+        </div>
+
+        <div class="container">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="caousel-card">
+                  <blockquote>
+                    لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل
+                    الخاص بك اما على الاندرويد أو الأيفون
+                  </blockquote>
+                  <div class="user-container">
+                    <img src="./img/test.png" alt="..." class="rounded" />
+                    <div class="user-info">
+                      <h6>Lorem, ipsum dolor.</h6>
+                      <span>Lorem, ipsum.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="caousel-card">
+                  <blockquote>
+                    لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل
+                    الخاص بك اما على الاندرويد أو الأيفون
+                  </blockquote>
+                  <div class="user-container">
+                    <img src="./img/test.png" alt="..." class="rounded" />
+                    <div class="user-info">
+                      <h6>مريم نوري</h6>
+                      <span>مدرسة الخلد الاعدادية</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="caousel-card">
+                  <blockquote>
+                    لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل
+                    الخاص بك اما على الاندرويد أو الأيفون
+                  </blockquote>
+                  <div class="user-container">
+                    <img src="./img/test.png" alt="..." class="rounded" />
+                    <div class="user-info">
+                      <h6>Lorem, ipsum dolor.</h6>
+                      <span>Lorem, ipsum.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev t-btn-blue-g"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+            <a
+              class="carousel-control-next t-btn-blue-g"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </a>
+          </div>
+        </div>
       </section>
     </div>
 
@@ -368,9 +688,25 @@
       </style>
     </footer>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.rtlcss.com/bootstrap/v4.0.0/js/bootstrap.min.js"
+      integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
