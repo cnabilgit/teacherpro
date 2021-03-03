@@ -1,0 +1,50 @@
+// general setting ----------------------
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $my-font;
+    background-color: $main-bg-color;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    .t-h1-secoundary{
+        color: $secoundary-color;
+        font-weight: bolder;
+        font-size: 60px;
+    }
+     .t-h2-secoundary{
+        color: $main-text-color;
+        font-weight: bolder;
+          font-size: 26px;
+    }
+    .t-p{
+        font-size: 24px;
+    }
+    .t-wrapper{
+        background:$main-bg-color url("../img/wrapper.png") no-repeat left top;
+        background-size: cover;
+        
+    }
+    .navbar-toggler {
+        color: $secoundary-color !important;
+        border: $secoundary-color !important;
+    }
+        .t-btn {
+        background: linear-gradient(227deg, $primary-color, $secoundary-color);
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border-radius: 50px!important;
+        &:hover     {
+            color: white;
+        cursor: pointer;
+        box-shadow:3px 4px 3px lighten($secoundary-color,20%);
+        transform: translateY(-2px);
+       }
+    }
+}

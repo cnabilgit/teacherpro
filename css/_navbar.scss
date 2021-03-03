@@ -1,0 +1,40 @@
+//  Navbar ----------------------------
+
+.t-navbar{
+      position: fixed;
+  top: 0;
+  width: 100%;
+    line-height: 3em;
+    font-family: 'Tajawal';
+    font-weight: 600;
+    font-size: 18px;
+    background-color: white;
+    .nav-item{
+        margin: 10px;
+        border-radius: 20px;
+        .active{
+            border-radius: 20px;
+            background: $main-bg-color;
+        }
+        a{
+            color: $main-text-color;
+        }
+        &:hover{
+            background: $main-bg-color;
+        }
+    }
+   
+    .nav-link {
+    padding-left: 1em!important;
+    padding-right: 1em!important;
+
+   }
+   .site-logo {
+    padding: 10px;
+    height: 4em;
+    }
+    .nav-link li a{
+      margin: 1em;
+    }
+
+}

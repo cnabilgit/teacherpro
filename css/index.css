@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Tajawal", "cairo";
+  background-color: #F0F5FC;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+body .t-h1-secoundary {
+  color: #5363d2;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+body .t-h2-secoundary {
+  color: #455B89 !important;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+body .t-p {
+  font-size: 24px;
+}
+
+body .t-wrapper {
+  background: #F0F5FC url("../img/wrapper.png") no-repeat left top;
+  background-size: cover;
+}
+
+body .navbar-toggler {
+  color: #5363d2 !important;
+  border: #5363d2 !important;
+}
+
+body .t-btn {
+  background: linear-gradient(227deg, #22cae6, #5363d2);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 50px !important;
+}
+
+body .t-btn:hover {
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 3px 4px 3px #a4ace7;
+          box-shadow: 3px 4px 3px #a4ace7;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.t-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  line-height: 3em;
+  font-family: 'Tajawal';
+  font-weight: 600;
+  font-size: 18px;
+  background-color: white;
+}
+
+.t-navbar .nav-item {
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.t-navbar .nav-item .active {
+  border-radius: 20px;
+  background: #F0F5FC;
+}
+
+.t-navbar .nav-item a {
+  color: #455B89 !important;
+}
+
+.t-navbar .nav-item:hover {
+  background: #F0F5FC;
+}
+
+.t-navbar .nav-link {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.t-navbar .site-logo {
+  padding: 10px;
+  height: 4em;
+}
+
+.t-navbar .nav-link li a {
+  margin: 1em;
+}
+
+.t-hero {
+  margin-top: 100px;
+}
+
+.t-hero .hero-img {
+  width: 130%;
+  direction: rtl;
+  margin-right: -300px;
+}
+
+.t-hero .t-hero-left {
+  margin: auto;
+  padding-bottom: 160px;
+}
+/*# sourceMappingURL=index.css.map */
