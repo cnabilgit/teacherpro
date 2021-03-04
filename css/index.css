@@ -18,13 +18,13 @@ body .t-wrapper {
 body .t-h1-secoundary {
   color: #5363d2;
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 3rem;
 }
 
 body .t-h2-secoundary {
   color: #455B89 !important;
   font-weight: bolder;
-  font-size: 26px;
+  font-size: 1.5rem;
 }
 
 body .t-p {
@@ -77,7 +77,8 @@ body section .section-header {
 
 body section .section-header h3 {
   color: #5363d2;
-  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 body section .section-header p {
