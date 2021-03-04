@@ -55,8 +55,9 @@
     direction: rtl;
     margin-right: -300px!important;
     }
-    .t-card {
-    max-width: 100%;
+     .t-card {
+    max-width: 100%!important;
+    margin-bottom: 40px!important;
    }
    #account-steps {
     display: block;

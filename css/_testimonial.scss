@@ -1,3 +1,9 @@
+.testimonial{
+       background: url("../img/ti.png") no-repeat left top;
+       background-size: contain;
+
+}
+
 .caousel-card {
     margin: 30px 300px!important;
     background: white;
@@ -44,4 +50,28 @@ blockquote:before{
         color: #4b6ed0;
         font-weight: bold;
     }
+    
+}
+.carousel-indicators li {
+    background-color: gray;
+    margin-top: -20px;  
+}
+
+.carousel-indicators .active{
+    
+    background-color: $secoundary-color;
+}
+
+.user-info h6 {
+    text-align: right;
+}
+
+.user-info span {
+    text-align: right;
+    color: #8f8f8f;
+}
+.fa-quote-right{
+    color: $secoundary-color;
+    font-size: 2rem;
+    margin: 2rem;
 }

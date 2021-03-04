@@ -1,3 +1,7 @@
+html{
+    transition: all 0.8s ease-out;
+     scroll-behavior: smooth;
+}
 // general setting ----------------------
 body{
     padding: 0;
@@ -5,8 +9,6 @@ body{
     box-sizing: border-box;
     font-family: $my-font;
     background-color: $main-bg-color;
-    transition: all 0.8s ease-out;
-     scroll-behavior: smooth;
     //Backgrounds
     .t-wrapper{
         background:$main-bg-color url("../img/hero-bg@2x.png") no-repeat left top;
@@ -108,6 +110,9 @@ body{
     right: 22%;
         }
     }
+    .download-text h6, span {
+    color: white;
+}
 }
 circle {
    animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both ;

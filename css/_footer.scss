@@ -1,0 +1,58 @@
+
+   .sub-footer {
+       background: $secoundary-color;
+       padding: 1rem;
+       color: white;
+       font-weight: bold;
+   }
+   .footer {
+    padding: 3rem;
+    h6 {
+    font-size: 2rem;
+    color: white;
+    direction: rtl;
+    text-align: right;
+   } 
+    .btn.t-btn-blue-g {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    padding: 1rem;
+}
+   }
+.footer-logo {
+    padding-bottom: 1rem;
+    display: flex;
+}
+.social {
+    width: 2rem;
+    margin-left: 11px;
+}
+.social-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-container {
+    color: white;
+    ul li a {
+    direction: rtl;
+    text-align: revert;
+    float: right;
+    font-weight: bold;
+    color: white;
+   }
+   
+}
+
+input.form-control {
+    padding-right: 41px;
+    border-radius: 0px 10px 10px 0px!important;
+}
+img.email-icon {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 99;
+}

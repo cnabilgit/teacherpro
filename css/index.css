@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+html {
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -6,9 +12,6 @@ body {
           box-sizing: border-box;
   font-family: "Tajawal", "cairo";
   background-color: #F0F5FC;
-  -webkit-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
-  scroll-behavior: smooth;
 }
 
 body .t-wrapper {
@@ -125,6 +128,10 @@ body .t-card .t-card-footer {
   bottom: 0;
   border-radius: 20px 20px 0px 0px;
   right: 22%;
+}
+
+body .download-text h6, body span {
+  color: white;
 }
 
 circle {
@@ -384,11 +391,11 @@ circle {
 }
 
 .feature2 {
-  background: url("../img/feature2-bg.svg") no-repeat left top;
-  background-size: cover;
+  background: url(../img/feature2-bg.svg) no-repeat left top;
+  background-size: cover !important;
   margin-top: 0px !important;
   padding-top: 70px;
-  padding-bottom: 100px;
+  padding-bottom: 20rem;
 }
 
 .feature2 .section-header h3 {
@@ -522,6 +529,11 @@ circle {
   margin-left: 20px;
 }
 
+.testimonial {
+  background: url("../img/ti.png") no-repeat left top;
+  background-size: contain;
+}
+
 .caousel-card {
   margin: 30px 300px !important;
   background: white;
@@ -581,6 +593,30 @@ blockquote:before {
   font-weight: bold;
 }
 
+.carousel-indicators li {
+  background-color: gray;
+  margin-top: -20px;
+}
+
+.carousel-indicators .active {
+  background-color: #5363d2;
+}
+
+.user-info h6 {
+  text-align: right;
+}
+
+.user-info span {
+  text-align: right;
+  color: #8f8f8f;
+}
+
+.fa-quote-right {
+  color: #5363d2;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
 @media (max-width: 576px) {
   .hero-img {
     width: 80% !important;
@@ -634,7 +670,8 @@ blockquote:before {
     margin-right: -300px !important;
   }
   .t-card {
-    max-width: 100%;
+    max-width: 100% !important;
+    margin-bottom: 40px !important;
   }
   #account-steps {
     display: block;
@@ -661,5 +698,77 @@ blockquote:before {
   .carousel-control-next {
     left: -70px !important;
   }
+}
+
+.sub-footer {
+  background: #5363d2;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 3rem;
+}
+
+.footer h6 {
+  font-size: 2rem;
+  color: white;
+  direction: rtl;
+  text-align: right;
+}
+
+.footer .btn.t-btn-blue-g {
+  color: white;
+  font-weight: bold;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  padding: 1rem;
+}
+
+.footer-logo {
+  padding-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social {
+  width: 2rem;
+  margin-left: 11px;
+}
+
+.social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.links-container {
+  color: white;
+}
+
+.links-container ul li a {
+  direction: rtl;
+  text-align: revert;
+  float: right;
+  font-weight: bold;
+  color: white;
+}
+
+input.form-control {
+  padding-right: 41px;
+  border-radius: 0px 10px 10px 0px !important;
+}
+
+img.email-icon {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  z-index: 99;
 }
 /*# sourceMappingURL=index.css.map */
