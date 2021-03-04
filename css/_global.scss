@@ -39,7 +39,7 @@ body{
     &:hover{
     color: white;
     cursor: pointer;
-    box-shadow:3px 4px 3px lighten(grey,30%);
+    box-shadow:3px 4px 13px lighten($secoundary-color,30%);
     transform:translateY(-1px);
         }
         .btn-icon {
