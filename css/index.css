@@ -96,11 +96,11 @@ body section .section-header p {
 body .t-card {
   position: relative;
   background: white;
-  padding: 20px;
+  padding-top: 20px;
   border-radius: 20px;
   -webkit-box-shadow: 1px 5px 15px #00000026;
           box-shadow: 1px 5px 15px #00000026;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 body .t-card .t-card-title {
@@ -117,7 +117,10 @@ body .t-card img {
 body .t-card p {
   max-width: 100% !important;
   padding: 10px;
+  padding-bottom: 30px;
   color: #707070 !important;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 body .t-card .t-card-footer {
