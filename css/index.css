@@ -581,7 +581,7 @@ blockquote:before {
   font-weight: bold;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .hero-img {
     width: 80% !important;
     direction: rtl;

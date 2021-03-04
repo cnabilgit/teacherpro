@@ -4,19 +4,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS -->
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
+    <!-- Fontawesome CSS -->
     <link
       rel="stylesheet"
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
     />
-
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.rtl.min.css"
+      href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css"
+      integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz"
+      crossorigin="anonymous"
     />
+    <!-- Costum CSS -->
     <link href="css/index.css" rel="stylesheet" />
 
     <title>Teacher pro app</title>
@@ -206,8 +207,8 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -268,7 +269,9 @@
                 الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم
                 إيبسوم لأنها تعطي توزيعاَ طبيعياَ
               </p>
-              <button class="btn t-btn btn-lg mx-3 t-btn-red-g fade-right">
+              <button
+                class="btn t-btn btn-lg t-btn-red-g col-sm-10 col-md-5 mb-3"
+              >
                 <img
                   src="./img/yt-icon.svg"
                   alt=""
@@ -278,7 +281,7 @@
 
                 شاهد الفيديو
               </button>
-              <button class="btn t-btn btn-lg t-btn-blue-g fade-right">
+              <button class="btn t-btn btn-lg t-btn-blue-g col-sm-10 col-md-5">
                 <img src="./img//arrow.svg" alt="" srcset="" class="btn-icon" />
                 اعرف المزيد
               </button>
@@ -687,6 +690,7 @@
         }
       </style>
     </footer>
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -702,11 +706,6 @@
       integrity="sha384-54+cucJ4QbVb99v8dcttx/0JRx4FHMmhOWi4W+xrXpKcsKQodCBwAvu3xxkZAwsH"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
     <script src="./js/index.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
