@@ -550,7 +550,6 @@ nav {
 }
 
 .cta .download {
-  border: 2px solid transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -578,7 +577,7 @@ nav {
 }
 
 .cta .download:hover {
-  border: 2px solid #5363d2;
+  opacity: 0.8;
 }
 
 .cta .download-icon {
