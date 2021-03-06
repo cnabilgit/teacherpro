@@ -6,11 +6,12 @@ color: $teacher-color;
 background-color: $teacher-color;
 }
 .teacher-hover{
+   border: 3px solid transparent;
+   border-bottom: 0px solid transparent;
    &:hover{
       box-sizing: border-box;
       border: 3px solid $teacher-color;
       box-shadow: 8px 17px 15px lighten($teacher-color,20%);
-      transform: translateY(10px);
    }
 }
 
@@ -22,11 +23,14 @@ color: $student-color;
 background-color: $student-color;
 }
 .student-hover{
+        border: 3px solid transparent;
+   border-bottom: 0px solid transparent;
+
+
    &:hover{
       box-sizing: border-box;
       border: 3px solid $student-color;
       box-shadow: 8px 17px 15px lighten($student-color,14%);
-      transform: translateY(10px);
    }
 }
 
@@ -39,11 +43,14 @@ color: $suppervisor-color;
 background-color: $suppervisor-color;
 }
 .suppervisor-hover{
+        border: 3px solid transparent;
+   border-bottom: 0px solid transparent;
+
+
    &:hover{
       box-sizing: border-box;
       border: 3px solid $suppervisor-color;
       box-shadow: 8px 17px 15px lighten($suppervisor-color,20%);
-      transform: translateY(10px);
    }
 }
 
@@ -55,16 +62,20 @@ color: $parent-color;
 background-color: $parent-color;
 }
 .parent-hover{
+        border: 3px solid transparent;
+        border-bottom: 0px solid transparent;
+
+
    &:hover{
       box-sizing: border-box;
       border: 3px solid $parent-color;
       box-shadow: 8px 17px 15px lighten($parent-color,20%);
-      transform: translateY(10px);
    }
 }
 
 // section steps
 #account-steps{
    width: 80%;
-    margin-top: 40px;
+   margin: 0 auto;
+   margin-top: 40px;
 }

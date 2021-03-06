@@ -21,8 +21,9 @@
     display: none;
    }
    .t-card {
-    max-width: 90%;
-    margin-bottom: 40px;
+
+    max-width: 22rem;
+    margin: 22px 2rem!important;
    }
    .feature1-feature-list {
     margin-top: 1rem!important;
@@ -35,13 +36,16 @@
       background: linear-gradient(45deg, $primary-color, $secoundary-color);
    }
       .caousel-card {
-    margin: 30px!important;
+    max-width: 22rem;
+    margin: 2rem auto!important;
    }
    .carousel-control-prev {
-    right: -70px!important;
+    right: -1rem!important;
+    z-index: 22;
    }
    .carousel-control-next {
-    left: -70px!important;
+    left: -1rem!important;
+    z-index: 22;
    }
    
  }
