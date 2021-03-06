@@ -228,19 +228,19 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"
+              <a class="nav-link" aria-current="page" href="#features"
                 >مميزات التطبيق</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">تواصل معنا</a>
+              <a class="nav-link" aria-current="page" href="#contact-us">تواصل معنا</a>
             </li>
           </ul>
 
           <button
             class="btn btn-lg t-btn t-btn-blue-g"
             type="submit"
-            onclick="window.location.href='#accounts'"
+            onclick="window.location.href='#download'"
           >
             حمل التطبيق
           </button>
@@ -293,14 +293,18 @@
             </div>
           </div>
         </div>
-        <a href="#down" id="down">
-          <img
-            src="./img/scroll-down.svg"
-            class="scroll-down"
-            alt=""
-            srcset=""
-          />
-        </a>
+        <div
+        class="scroll-down"
+        id="down"
+        onclick="window.location.href='#down'">
+        <img
+          src="./img/scroll-down.svg"
+          alt=""
+          srcset=""
+        />
+
+        </div>
+        
       </section>
       <!-- End hero section //////////// -->
 
@@ -410,7 +414,7 @@
         </div>
       </section>
       <!-- Start of feature1 section  -->
-      <section class="section feature1">
+      <section class="section feature1" id="features">
         <div class="container">
           <!-- Section Header -->
           <div class="section-header">
@@ -539,7 +543,7 @@
       <!-- end of feature2 section  -->
 
       <!-- start call to action  -->
-      <section class="section container cta">
+      <section class="section container cta" id="download">
         <div class="container">
           <h2 class="section-header">حمل تيتشر برو الآن وآكتشف المزيد !</h2>
           <p class="text-center">
@@ -612,12 +616,12 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="caousel-card">
+                  <i class="fa fa-quote-right" aria-hidden="true"></i>
                   <blockquote>
-                    <i class="fa fa-quote-right" aria-hidden="true"></i>
                     لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل
                     الخاص بك اما على الاندرويد أو الأيفون
-                    <i class="fa fa-quote-right" aria-hidden="true"></i>
                   </blockquote>
+
                   <div class="user-container">
                     <img src="./img/test@2x.png" alt="..." class="rounded" />
                     <div class="user-info">
@@ -630,14 +634,14 @@
 
               <div class="carousel-item">
                 <div class="caousel-card">
+                  <i class="fa fa-quote-right" aria-hidden="true"></i>
                   <blockquote>
-                    <i class="fa fa-quote-right" aria-hidden="true"></i>
 
                     لتحميل التطبيق اضغظ على الزر اسفل الذي يناسب جهاز التشغيل
                     الخاص بك اما على الاندرويد أو الأيفون
 
-                    <i class="fa fa-quote-right" aria-hidden="true"></i>
                   </blockquote>
+
                   <div class="user-container">
                     <img src="./img/test@2x.png" alt="..." class="rounded" />
                     <div class="user-info">
@@ -675,10 +679,10 @@
       </section>
     </div>
 
-    <footer class="t-btn-blue-g">
+    <footer class="t-btn-blue-g pt-3" id="contact-us">
       <div class="container footer">
         <div class="row">
-          <div class="col-sm-4 text-center">
+          <div class="col-sm-4 text-center mb-3">
             <h6>روابط مهمة</h6>
             <div class="input-group mb-3">
               <div class="input-group-prepend"></div>
@@ -693,22 +697,18 @@
               <button class="btn t-btn-blue-g" type="button">ارسال</button>
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-sm-4 text-center mb-3">
             <h6>روابط مهمة</h6>
             <div class="links-container">
               <ul>
                 <li><a href="#">من نحن</a></li>
                 <li><a href="#">الأسئلة الشائعة</a></li>
-              </ul>
-            </div>
-            <div class="links-container">
-              <ul>
                 <li><a href="#">سياسة الخصوصية</a></li>
                 <li><a href="#">سياسة الاستخدام</a></li>
               </ul>
             </div>
           </div>
-          <div class="col-sm-4 text-center">
+          <div class="col-sm-4 text-center mb-3">
             <div class="footer-logo">
               <img src="./img/footer-logo.svg" alt="" />
             </div>

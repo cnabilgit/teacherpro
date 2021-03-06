@@ -1,6 +1,9 @@
 html{
     transition: all 0.8s ease-out;
      scroll-behavior: smooth;
+     img{
+user-select: none;
+     }
 }
 // general setting ----------------------
 body{
