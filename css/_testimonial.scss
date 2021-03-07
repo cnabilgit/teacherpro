@@ -6,7 +6,8 @@
 
 .caousel-card {
     margin: 30px 300px!important;
-    background: white;
+    background: #eef4fc;
+    border: 3px solid #5264d2;
     border-radius: 20px;
     box-shadow: -14px 13px 30px #2f69fc36;
     text-align: center;
@@ -40,7 +41,7 @@ blockquote:before{
     }
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
         align-items: center;
 
     h6 {
@@ -52,9 +53,12 @@ blockquote:before{
     }
     
 }
-.carousel-indicators li {
+.carousel-indicators {
+    bottom: 0rem;
+    li {
     background-color: gray;
-    margin-top: -20px;  
+  
+ }
 }
 
 .carousel-indicators .active{
@@ -74,4 +78,12 @@ blockquote:before{
     color: $secoundary-color;
     font-size: 2rem;
     margin: 2rem;
+    margin-left: 70%;
+}
+
+
+.caousel-card {
+    width: 45% !important;
+       margin-left: 2rem!important;
+
 }

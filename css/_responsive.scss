@@ -36,8 +36,8 @@
       background: linear-gradient(45deg, $primary-color, $secoundary-color);
    }
       .caousel-card {
-    max-width: 22rem;
-    margin: 2rem auto!important;
+    max-width: 100%;
+    margin: 2rem  2rem!important;
    }
    .carousel-control-prev {
     right: -1rem!important;
@@ -80,7 +80,11 @@
     background: url(../img/feature2-bg.svg) no-repeat left top;
    }
    .caousel-card {
-    margin: 30px!important;
+    max-width: 100%;
+    margin: 2rem 4rem !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
    }
    .carousel-control-prev {
     right: -70px!important;

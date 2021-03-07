@@ -592,7 +592,8 @@ nav {
 
 .caousel-card {
   margin: 30px 300px !important;
-  background: white;
+  background: #eef4fc;
+  border: 3px solid #5264d2;
   border-radius: 20px;
   -webkit-box-shadow: -14px 13px 30px #2f69fc36;
           box-shadow: -14px 13px 30px #2f69fc36;
@@ -627,9 +628,9 @@ blockquote:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -649,9 +650,12 @@ blockquote:before {
   font-weight: bold;
 }
 
+.carousel-indicators {
+  bottom: 0rem;
+}
+
 .carousel-indicators li {
   background-color: gray;
-  margin-top: -20px;
 }
 
 .carousel-indicators .active {
@@ -671,6 +675,12 @@ blockquote:before {
   color: #5363d2;
   font-size: 2rem;
   margin: 2rem;
+  margin-left: 70%;
+}
+
+.caousel-card {
+  width: 45% !important;
+  margin-left: 2rem !important;
 }
 
 @media (max-width: 576px) {
@@ -709,8 +719,8 @@ blockquote:before {
     background: linear-gradient(45deg, #22cae6, #5363d2);
   }
   .caousel-card {
-    max-width: 22rem;
-    margin: 2rem auto !important;
+    max-width: 100%;
+    margin: 2rem 2rem !important;
   }
   .carousel-control-prev {
     right: -1rem !important;
@@ -749,7 +759,16 @@ blockquote:before {
     background: url(../img/feature2-bg.svg) no-repeat left top;
   }
   .caousel-card {
-    margin: 30px !important;
+    max-width: 100%;
+    margin: 2rem 4rem !important;
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .carousel-control-prev {
     right: -70px !important;
@@ -830,5 +849,33 @@ img.email-icon {
   right: 10px;
   top: 20px;
   z-index: 99;
+}
+
+.screenshot {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.screenshot img {
+  max-width: 250px;
+  margin: auto;
+  height: auto;
+}
+
+.sc-caro {
+  position: relative;
+}
+
+.sc-caro .iphone-sc {
+  position: absolute;
+  width: 270px;
+  margin: 0 auto;
+  left: 43%;
+  z-index: 22;
+  top: 0px;
 }
 /*# sourceMappingURL=index.css.map */

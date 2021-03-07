@@ -1,0 +1,22 @@
+.screenshot {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    img{
+       max-width: 250px;
+    margin: auto;
+    height: auto;
+    }
+}
+.sc-caro{
+   position: relative;
+   .iphone-sc{
+   position: absolute;
+    width: 270px;
+    margin: 0 auto;
+    left: 43%;
+    z-index: 22;
+    top: 0px;
+   }
+}
