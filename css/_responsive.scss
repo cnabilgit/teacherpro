@@ -1,10 +1,12 @@
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) { 
    img.iphone-sc {
-    position: absolute;
-    bottom: 13%!important;
-    left: 35%!important;
-    width: 30%!important;
+    position: absolute !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    width: 100% !important;
+    margin: 0px auto;
+    height: 78%;
 }
 
    .hero-img {

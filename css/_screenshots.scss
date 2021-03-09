@@ -4,7 +4,7 @@
     margin: 0 auto;
     display: flex;
     border-radius: 13px;
-    opacity: 0.6;
+    opacity: 1;
 }
 .screenshot:nth-child(3){
    opacity: 1;
@@ -18,7 +18,7 @@
 }
 img.iphone-sc {
     position: absolute;
-    bottom: -5%;
+    bottom: 3%;
     left: 40%;
     width: 20%;
 }

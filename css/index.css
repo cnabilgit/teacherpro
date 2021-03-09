@@ -685,10 +685,12 @@ blockquote:before {
 
 @media (max-width: 576px) {
   img.iphone-sc {
-    position: absolute;
-    bottom: 13% !important;
-    left: 35% !important;
-    width: 30% !important;
+    position: absolute !important;
+    bottom: 0% !important;
+    left: 0% !important;
+    width: 100% !important;
+    margin: 0px auto;
+    height: 78%;
   }
   .hero-img {
     width: 80% !important;
@@ -865,7 +867,7 @@ img.email-icon {
   display: -ms-flexbox;
   display: flex;
   border-radius: 13px;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .screenshot:nth-child(3) {
@@ -880,7 +882,7 @@ img.email-icon {
 
 img.iphone-sc {
   position: absolute;
-  bottom: -5%;
+  bottom: 3%;
   left: 40%;
   width: 20%;
 }
