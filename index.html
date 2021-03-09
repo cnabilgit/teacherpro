@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Fontawesome CSS -->
-    <link
-      rel="stylesheet"
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css"
-      integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz"
-      crossorigin="anonymous"
-    />
-    <!-- Costum CSS -->
-    <link href="css/index.css" rel="stylesheet" />
 
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Fontawesome CSS -->
+  <link
+  rel="stylesheet"
+  href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+  />
+  <!-- Bootstrap CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css"
+  integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz"
+  crossorigin="anonymous"
+  />
+  <!-- owl carousel -->
+  <link href="css/owl.carousel.min.css" rel="stylesheet" />
+  <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+
+  <!-- Costum CSS -->
+  <link href="css/index.css" rel="stylesheet" />
+  
     <title>Teacher pro app</title>
   <style type="text/css">
     .st0 {
@@ -566,7 +572,7 @@
               </a>
             </div>
             <div class="col-md-6">
-              <a class="download t-btn-blue-g">
+              <a class="download t-btn-blue-g" >
                 <img
                   src="./img/android.svg"
                   alt=""
@@ -717,6 +723,20 @@
     </div>
 
 
+          <!-- Set up your HTML -->
+      <section class="container sc-caro mt-5 mb-5">
+        <img src="./img/mockup.png" alt="" class="iphone-sc">
+        <div class="owl-carousel ">
+          <div >  <img src="./img/sc-1.png" alt="" srcset="" class="screenshot"> </div>
+          <div >  <img src="./img/sc-2.png" alt="" srcset="" class="screenshot"> </div>
+          <div >  <img src="./img/sc-3.png" alt="" srcset="" class="screenshot"> </div>
+          <div >  <img src="./img/sc-4.png" alt="" srcset="" class="screenshot"> </div>
+          <div >  <img src="./img/sc-5.png" alt="" srcset="" class="screenshot"> </div>
+        </div>
+      </section>
+
+      
+
     <footer class="t-btn-blue-g pt-3" id="contact-us">
       <div class="container footer">
         <div class="row">
@@ -763,6 +783,9 @@
       </div>
     </footer>
 
+    
+
+   
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -779,5 +802,40 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/index.js"></script>
+    <!-- owl carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- owl carousel -->
+    <script>
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    rtl:true,
+    loop:true,
+    items:1,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    responsive:{
+        0:{
+            items:3,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+    </script>
   </body>
 </html>

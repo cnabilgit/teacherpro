@@ -684,6 +684,12 @@ blockquote:before {
 }
 
 @media (max-width: 576px) {
+  img.iphone-sc {
+    position: absolute;
+    bottom: 13% !important;
+    left: 35% !important;
+    width: 30% !important;
+  }
   .hero-img {
     width: 80% !important;
     direction: rtl;
@@ -852,30 +858,30 @@ img.email-icon {
 }
 
 .screenshot {
-  width: 100%;
+  width: 90% !important;
   height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 13px;
+  opacity: 0.6;
 }
 
-.screenshot img {
-  max-width: 250px;
-  margin: auto;
-  height: auto;
+.screenshot:nth-child(3) {
+  opacity: 1;
 }
 
 .sc-caro {
   position: relative;
+  max-width: 80%;
+  margin: auto;
 }
 
-.sc-caro .iphone-sc {
+img.iphone-sc {
   position: absolute;
-  width: 270px;
-  margin: 0 auto;
-  left: 43%;
-  z-index: 22;
-  top: 0px;
+  bottom: -5%;
+  left: 40%;
+  width: 20%;
 }
 /*# sourceMappingURL=index.css.map */
