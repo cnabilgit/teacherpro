@@ -5,7 +5,13 @@
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
+
+    <!-- AOS CSS -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
   <!-- Fontawesome CSS -->
   <link
   rel="stylesheet"
@@ -21,6 +27,8 @@
   <!-- owl carousel -->
   <link href="css/owl.carousel.min.css" rel="stylesheet" />
   <link href="css/owl.theme.default.min.css" rel="stylesheet" />
+
+
 
   <!-- Costum CSS -->
   <link href="css/index.css" rel="stylesheet" />
@@ -186,7 +194,7 @@
           transform: scale(3.5);
           background: #e3e3e363;
           padding: 10px;
-          border-radius: 12px;
+          border-radius: 30px;
         }
         #loading {
           background: white;
@@ -267,7 +275,7 @@
                 srcset=""
               />
             </div>
-            <div class="col-md-6 t-hero-left">
+            <div class="col-md-6 t-hero-left"   >
               <h1 class="t-h1-secoundary mb-3">تطبيق تيتشر برو</h1>
               <h3 class="t-h2-secoundary mb-2">
                 المساعد الأول للمعلم . الأن بين يديك
@@ -804,9 +812,9 @@
       </div>
     </footer>
 
-    
+ 
 
-   
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -825,6 +833,10 @@
     <script src="./js/index.js"></script>
     <!-- owl carousel -->
     <script src="./js/owl.carousel.min.js"></script>
+
+
+
+
     <!-- owl carousel -->
     <script>
 var owl = $('.owl-carousel');
@@ -857,6 +869,12 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
+
     </script>
+       <!-- AOS carousel -->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+       <script> AOS.init();</script>
   </body>
 </html>

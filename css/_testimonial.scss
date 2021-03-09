@@ -54,11 +54,7 @@ blockquote:before{
     
 }
 .carousel-indicators {
-    bottom: 0rem;
-    li {
-    background-color: gray;
-  
- }
+   display: none;
 }
 
 .carousel-indicators .active{
